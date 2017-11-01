@@ -31,8 +31,8 @@ defmodule PhoenixSwoosh.Mixfile do
   end
 
   defp deps do
-    [{:swoosh, "~> 0.1"},
-     {:phoenix, "~> 1.0"},
+    [{:swoosh,  git: "https://github.com/henb/swoosh.git", tag: "feature/v0.11.0"},
+     {:phoenix, "~> 1.2.5"},
      {:phoenix_html, "~> 2.2"},
      {:credo, "~> 0.8", only: [:dev, :test]},
      {:ex_doc, "~> 0.16", only: :docs},
